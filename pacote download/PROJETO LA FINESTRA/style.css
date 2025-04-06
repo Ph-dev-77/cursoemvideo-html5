@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    
+}
+
+  
+body{
+    background-color: #feb808;
+    font-family: 'poppins', sans-serif;
+
+}
+.interface{
+    max-width:1280px ;
+    margin:0 auto ;
+}
+.flex{
+    display: flex;
+}
+.interface > h2.titulo{
+    color: #823f0f;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+ 
+    color: #7b3604;
+    text-align: center;
+    margin: 23px 0;
+
+}
+p{
+    color: #7b3604;
+    text-align: center;
+}
+
+
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40PX 4%;
+
+}
+header> .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+header a {
+    color:  #7b3604;
+    text-decoration: none;
+    display: inline-block;
+}
+header a:hover{
+    color:  #000000;
+    transform: scale(1.06);
+    transition: .2s;
+
+     
+}
+header nav   {
+    list-style-type: none;
+}
+header nav  li {
+    display: inline-block;
+    padding: 0 40px;
+}
+.btn-contato button {
+ padding: 10px 40px;  
+ font-size: 20px; 
+ font-weight: 600;
+ background-color: #7b3604 ;
+ border: 0;
+ border-radius: 30px;
+ cursor: pointer;
+ transition: .5s;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #000000;
+    transform: scale(1.05);
+}
+/* ESTILO DO TOPO DO SITE */
+section .topo-do-site{
+    padding: 40px 4%;
+
+}
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site .txt-topo-site h1{
+    font-size: 38px;
+    line-height: 40px;
+    color:  #7b3604;
+   
+}
+.topo-do-site .txt-topo-site p{
+    color: #7b3604;
+    margin: 40px 0;
+    
+}
+.topo-do-site .img-topo-site img {
+   position: relative;
+   animation: flutuar 2s ease-in-out infinite alternate;
+   margin: 40px;
+   margin-top: 40px 4%;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top:30px;
+    }
+}
+/* ESTILO DAS ESPECIALIDADES */
+section .especialidades{
+    padding: 40px 4%;
+
+
+}
+section .especialidades{
+    gap: 60px;
+}
+.especialidades .especialidades-box{
+    padding: 40px;
+    color: #7b3604;
+   transition: .6 s;
+border-radius: 20px;
+    margin-top: 45px;
+
+}
+.especialidades .especialidades-box img {
+
+    border: 10px; 
+    box-shadow: 2px 19px 15px #7b3604;
+    padding: 40px;
+    border-radius: 1px 7px 13px;
+    gap: px;
+   
+    
+}
+
+
+.especialidades .especialidades-box p {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.especialidades .especialidades-box h1{
+    text-align:center;
+    font-size: 40px;
+    margin: 15px 0px;
+}
+/* especialidades sobre */
+
