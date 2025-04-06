@@ -157,5 +157,46 @@ border-radius: 20px;
     font-size: 40px;
     margin: 15px 0px;
 }
-/* especialidades sobre */
+
+.hrr{
+  
+
+}
+/* sobre */
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    padding: 90px 4%;
+    box-shadow: 0 0 30px 10px #7b3604;
+    margin-top: 80px;
+}
+.txt-sobre{
+    padding-top:60px ;
+}
+.para-sobre-1{
+    padding-bottom: 30px;
+}
+.btn-social{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.btn-redes{
+    padding: 0 20px 10px ;
+    text-align: cente;
+    padding-top: 10px;
+    border: none;
+    border: 2px #7b3604 solid;
+    border-radius: 10px;
+    background-color: #feb808;
+    cursor: pointer;
+}
+/* fim do sobre */
+
+.elementor-icon-wrapper{
+    position: fixed;
+}
+
 
